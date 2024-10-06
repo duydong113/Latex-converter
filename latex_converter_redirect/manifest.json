@@ -1,0 +1,14 @@
+
+{
+  "manifest_version": 3,
+  "name": "LaTeX Converter Redirect",
+  "version": "1.0",
+  "description": "Redirects to the LaTeX converter running on localhost.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Open LaTeX Converter"
+  }
+}
